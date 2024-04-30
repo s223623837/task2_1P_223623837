@@ -1,0 +1,19 @@
+package sit707_tasks;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class TestMathEngine {
+	private Calculator calculator = new Calculator();
+
+
+    @Test
+    public void testMultiply() {
+        assertEquals(6, calculator.multiply(2, 3));
+    }
+
+  
+
+}
